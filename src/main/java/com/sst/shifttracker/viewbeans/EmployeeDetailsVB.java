@@ -1,10 +1,13 @@
-package com.sst.shifttracker.DTOs;
+package com.sst.shifttracker.viewbeans;
 
-public class EmployeeDTO {
+public class EmployeeDetailsVB {
+
 	private int empId;
 	private String empName;
 	private String empProject;
 	private String empProjStream;
+	
+	
 	public int getEmpId() {
 		return empId;
 	}
@@ -33,5 +36,5 @@ public class EmployeeDTO {
 	
 	
 	
-
+	
 }
