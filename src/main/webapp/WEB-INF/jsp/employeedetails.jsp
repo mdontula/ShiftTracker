@@ -15,9 +15,9 @@
 		<c:forEach var="employee" items="${empDetails}">
 			<tr>
 				<td>${employee.empId}</td>
-				<td>${employee.employeeName}</td>
-				<td>${employee.project}</td>
-				<td>${employee.team}</td>
+				<td>${employee.empName}</td>
+				<td>${employee.empProject}</td>
+				<td>${employee.empProjStream}</td>
 			</tr>
 
 		</c:forEach>
